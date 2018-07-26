@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Project Specifications
-    // TODO 1: JSON data is parsed correctly to a Sandwich object in JsonUtils
+    // TODO 1: JSON data is parsed correctly to a Sandwich object in JSONUtils
     // TODO 2: JSON is parsed without using 3rd party libraries
     // TODO 3: DetailActivity shows all Sandwich details correctly
     // TODO 4: Detail layout includes a ScrollView so all the details are visible in small screen devices
