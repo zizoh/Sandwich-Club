@@ -35,4 +35,11 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(DetailActivity.EXTRA_POSITION, position);
         startActivity(intent);
     }
+
+    // Project Specifications
+    // TODO 1: JSON data is parsed correctly to a Sandwich object in JsonUtils
+    // TODO 2: JSON is parsed without using 3rd party libraries
+    // TODO 3: DetailActivity shows all Sandwich details correctly
+    // TODO 4: Detail layout includes a ScrollView so all the details are visible in small screen devices
+    // TODO 5: Sandwich details are shown in a sensible layout. For example, ingredients appear next to the ingredients label
 }
