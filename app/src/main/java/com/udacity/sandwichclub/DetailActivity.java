@@ -20,6 +20,7 @@ public class DetailActivity extends AppCompatActivity {
 
     public static final String EXTRA_POSITION = "extra_position";
     private static final int DEFAULT_POSITION = -1;
+    private static final String DELIMITER = ", ";
 
     private TextView originTv;
     private TextView  alsoKnownTv;
@@ -80,11 +81,11 @@ public class DetailActivity extends AppCompatActivity {
         originTv.setText(sandwich.getPlaceOfOrigin());
 
         List<String> alsoKnownAsList = sandwich.getAlsoKnownAs();
-        String aka = TextUtils.join(", ", alsoKnownAsList);
+        String aka = TextUtils.join(DELIMITER, alsoKnownAsList);
         alsoKnownTv.append(aka);
 
         List<String> ingredientsList = sandwich.getIngredients();
-        String ingredients = TextUtils.join(", ", ingredientsList);
+        String ingredients = TextUtils.join(DELIMITER, ingredientsList);
         ingredientsTv.setText(ingredients);
 
         descriptionTv.setText(sandwich.getDescription());
