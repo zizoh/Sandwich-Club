@@ -26,4 +26,4 @@ display in a sensible way. Implement the JSON parsing in JsonUtils so it
 produces a Sandwich Object that can be used to populate the UI that I designed.
 
 ## Screenshot
-<img src="screenshots/1_SandwichList.png" height="400" alt="Screenshot"/> <img src="screenshots/2_SandwichDetail.png" height="400" alt="Screenshot"/>
+<img src="screenshot/1_SandwichList.png" height="400" alt="Screenshot"/> <img src="screenshot/2_SandwichDetail.png" height="400" alt="Screenshot"/>
