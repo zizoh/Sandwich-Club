@@ -3,5 +3,11 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <dimen name="detail_items_vertical_padding">8dp</dimen>
+    <dimen name="detail_imageview_height">200dp</dimen>
+    <dimen name="detail_items_padding">8dp</dimen>
+    <dimen name="detail_items_vertical_margin">8dp</dimen>
+    <dimen name="detail_cardview_vertical_margin">16dp</dimen>
+    <dimen name="detail_cardview_horizontal_margin">8dp</dimen>
+
+    <dimen name="detail_items_textsize">16sp</dimen>
 </resources>

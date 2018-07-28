@@ -8,4 +8,33 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Detail cardview styles. -->
+    <style name="cardViewStyle">
+        <item name="android:layout_marginTop">@dimen/detail_cardview_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/detail_cardview_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/detail_cardview_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/detail_cardview_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/detail_cardview_horizontal_margin</item>
+        <item name="android:layout_marginStart">@dimen/detail_cardview_horizontal_margin</item>
+    </style>
+
+    <!-- Detail labels textviews styles. -->
+    <style name="labelTextViewStyle">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_marginTop">@dimen/detail_items_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/detail_items_padding</item>
+        <item name="android:paddingStart">@dimen/detail_items_padding</item>
+        <item name="android:textSize">@dimen/detail_items_textsize</item>
+    </style>
+
+    <!-- Detail textviews styles. -->
+    <style name="textViewStyle">
+        <item name="android:layout_marginBottom">@dimen/detail_items_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/detail_items_padding</item>
+        <item name="android:paddingStart">@dimen/detail_items_padding</item>
+        <item name="android:paddingRight">@dimen/detail_items_padding</item>
+        <item name="android:paddingEnd">@dimen/detail_items_padding</item>
+        <item name="android:textSize">@dimen/detail_items_textsize</item>
+    </style>
+
 </resources>

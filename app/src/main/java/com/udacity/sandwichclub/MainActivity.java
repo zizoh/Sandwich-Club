@@ -42,4 +42,6 @@ public class MainActivity extends AppCompatActivity {
     // TODO 3: DetailActivity shows all Sandwich details correctly
     // TODO 4: Detail layout includes a ScrollView so all the details are visible in small screen devices
     // TODO 5: Sandwich details are shown in a sensible layout. For example, ingredients appear next to the ingredients label
+
+    // TODO 6: Fix url for shawarma image 
 }
