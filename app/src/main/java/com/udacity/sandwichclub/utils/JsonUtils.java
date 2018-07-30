@@ -27,7 +27,7 @@ public class JsonUtils {
         final String SWC_IMAGE = "image";
 
         final String SWC_INGREDIENTS = "ingredients";
-        
+
         JSONObject sandwichJSON = new JSONObject(json);
 
         /* Get the JSON object representing name */
@@ -64,7 +64,7 @@ public class JsonUtils {
 
     private static List<String> getStringListFromJSONArray(JSONArray jsonArray) throws JSONException {
         List<String> alsoKnownAs = new ArrayList<>();
-        for (int i = 0; i <jsonArray.length(); i++) {
+        for (int i = 0; i < jsonArray.length(); i++) {
             String aka = jsonArray.getString(i);
             alsoKnownAs.add(aka);
         }
